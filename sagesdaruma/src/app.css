@@ -1,0 +1,17 @@
+* {
+    box-sizing:border-box;
+
+}
+
+.heading-padder{
+    padding: 2rem;
+
+}    
+.montfont{
+font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal; 
+    color:#ffffff;
+}
+
