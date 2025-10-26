@@ -1,0 +1,12 @@
+services:
+    sagesdaruma:
+        build: 
+          context: ./sagesdaruma 
+          dockerfile: Dockerfile 
+        ports:
+            - "5173:5173"
+        volumes:
+            - ./sagesdaruma:/app 
+            - /app/node_modules
+        environment:
+            - NODE_ENV=development
